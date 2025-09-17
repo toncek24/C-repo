@@ -13,7 +13,7 @@ namespace vys_projekty
 
             {
                 Console.WriteLine("vyber si, Kámen, nůžky, nebo papír");
-                string tahHrace = Console.Readline().ToLower();
+                string tahHrace = Console.ReadLine().ToLower();
 
                 if (tahHrace == "konec")
                 {
@@ -35,7 +35,7 @@ namespace vys_projekty
 
                 Console.WriteLine($"Počítaž zvolil: {tahPocitace}");
 
-                //výsledek or sum shi
+                //výsledek 
 
                 if (tahPocitace == tahHrace)
                 {
